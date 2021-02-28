@@ -1,5 +1,5 @@
 body{
-    background-image: url(/img/background.jpg);
+    background-image: url(./img/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding-top: 20px;
@@ -8,7 +8,7 @@ body{
 
 }
 header{
-    background-image: url(/img/metin2.jpeg);
+    background-image: url(./img/metin2.jpeg);
     text-align: left;
     padding-top: 2px;
     font-size: 20px;

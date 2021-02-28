@@ -1,20 +1,28 @@
 body{
-    background: silver;
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
-    margin:auto;
+
 }
 header{
     background-image: url(/img/metin2.jpeg);
     text-align: left;
-    color: black;
-    padding-top: 0px;
+    padding-top: 2px;
     font-size: 20px;
     font-weight: bold;
-    background-size: 14.5%;
+    background-size: 10%;
+    background-repeat: no-repeat;
     background-position: center;
     margin:auto;
+    height: 100px;
+}
+h1{
+    color: teal;
+    font-weight: bold;
+    padding-top: 10px;
 }
 
 .menu li{
@@ -25,19 +33,56 @@ header{
     font-weight: bold;
 }
 
+#tarto{    
+    position: absolute;
+    right: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-size: cover;
+    float: right;
+}
 #szerverek{
-    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
     background-size: cover;
     float: right;
     margin:auto;
     background-color: cyan;
     border: 1px solid black;
+    border-radius: 10px;
     text-align: center;
-    width: 200px;
+}
+#szerver1{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 6px;
+    background-size: cover;
+    float: right;
+    margin:auto;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    clear: both;
+}
+#szerver2{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
+    background-size: cover;
+    float: right;
+    margin:auto;
+    background-color: rgb(66, 64, 64);
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    clear: both;
 }
 
 #bal{
-    font-size: 40px;
+    font-size: 35px;
     float:left;
     background-color: grey;
     margin:auto;
@@ -53,16 +98,38 @@ header{
     width: 69%;
     border: 1px solid black;
     border-radius: 7px;
+    position: relative;
+    min-height: 100vh;
 }
 #bal1 li{
     padding-bottom: 20px;
 }
 
 footer{
-    padding: 700px;
+    position: fixed;
+    bottom: 0;
+    clear:both;
+    width: 100%;
+    color: red;
+    font-weight: bold;
     text-align: center;
 }
 
+#gifek{
+    padding-top: 50px;
+    float: left;
+    padding-bottom: 80px;
+    padding-right: 100px;
+    justify-content: center;
+    width: 100%;
+}
 
+#gifek li {
+    text-align: center;
+}
+
+ul li{
+    color: rgb(216, 209, 255);
+}
 
 

@@ -2,12 +2,13 @@ body{
     background: silver;
     padding-top: 20px;
     padding-left: 40px;
+    padding-right: 40px;
     margin:auto;
 }
 header{
     background-image: url(/img/metin2.jpeg);
     text-align: left;
-    color: deeppink;
+    color: black;
     padding-top: 0px;
     font-size: 20px;
     font-weight: bold;
@@ -24,17 +25,19 @@ header{
     font-weight: bold;
 }
 
-#jobb{
-    padding: 30px;
+#szerverek{
+    padding: 10px;
     background-size: cover;
     float: right;
     margin:auto;
     background-color: cyan;
     border: 1px solid black;
     text-align: center;
-    
+    width: 200px;
 }
+
 #bal{
+    font-size: 40px;
     float:left;
     background-color: grey;
     margin:auto;
@@ -42,11 +45,24 @@ header{
     border: 1px solid black;
     border-radius: 7px;
 }
-
+#bal1{
+    font-size: 20px;
+    float:left;
+    background-color: grey;
+    margin:auto;
+    width: 69%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+#bal1 li{
+    padding-bottom: 20px;
+}
 
 footer{
     padding: 700px;
     text-align: center;
 }
+
+
 
 

@@ -1,5 +1,5 @@
 body{
-    background-image: url(./img/background.jpg);
+    background-image: url("https://raw.githubusercontent.com/Ricsko/weboldal/main/img/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding-top: 20px;

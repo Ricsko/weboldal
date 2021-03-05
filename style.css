@@ -5,6 +5,8 @@ body{
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    width: 100%;
+    height: 100%;
 
 }
 header{
@@ -16,11 +18,12 @@ header{
     background-size: 10%;
     background-repeat: no-repeat;
     background-position: center;
-    margin:auto;
+    margin: 0 auto;
     height: 100px;
+    width: 100%;
 }
 h1{
-    color: teal;
+    color: rgba(99, 121, 192, 0.253);
     font-weight: bold;
     padding-top: 10px;
 }
@@ -33,14 +36,14 @@ h1{
     font-weight: bold;
 }
 
-#tarto{    
-    position: absolute;
+#sidebar{
+    position: relative;
     right: 0;
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
     background-size: cover;
-    float: right;
+    font-weight: bold;
 }
 #szerverek{
     padding-top: 10px;
@@ -60,7 +63,7 @@ h1{
     padding-left: 6px;
     background-size: cover;
     float: right;
-    margin:auto;
+    margin: auto;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
@@ -82,31 +85,39 @@ h1{
 }
 
 #bal{
-    font-size: 35px;
-    float:left;
-    background-color: grey;
-    margin:auto;
-    width: 69%;
-    border: 1px solid black;
-    border-radius: 7px;
-}
-#bal1{
+    overflow: auto;
+    color: black;
     font-size: 20px;
-    float:left;
-    background-color: grey;
-    margin:auto;
+    background-color: rgba(77, 113, 180, 0.404);
+    margin: 0 auto;
     width: 69%;
     border: 1px solid black;
     border-radius: 7px;
     position: relative;
-    min-height: 100vh;
+    background-position: center;
+    padding: 10px;
+    
+}
+#bal1{
+    overflow: auto;
+    color: black;
+    font-size: 20px;
+    background-color: rgba(77, 113, 180, 0.404);
+    margin: 0 auto;
+    width: 69%;
+    border: 1px solid black;
+    border-radius: 7px;
+    position: relative;
+    background-position: center;
+    padding: 10px;
+    text-align: center;
 }
 #bal1 li{
     padding-bottom: 20px;
 }
 
 footer{
-    position: fixed;
+    position: relative;
     bottom: 0;
     clear:both;
     width: 100%;
@@ -116,12 +127,12 @@ footer{
 }
 
 #gifek{
-    padding-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     float: left;
-    padding-bottom: 80px;
-    padding-right: 100px;
     justify-content: center;
     width: 100%;
+    margin: 0 auto;
 }
 
 #gifek li {
@@ -129,7 +140,23 @@ footer{
 }
 
 ul li{
-    color: rgb(216, 209, 255);
+    color:white;
+    list-style: none;
+    font-size: bold ;
+    font-size: 25px;
 }
 
+ul a:hover{
+    color: black;
+    text-decoration: none;
+    background-color: cyan;
+    border-radius: 10px;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+ul a{
+    color:white;
+    font-weight: bold;
+}
 

@@ -37,12 +37,11 @@ h1{
 }
 
 #sidebar{
+    float: right;
     position: relative;
     right: 0;
     padding-top: 10px;
-    padding-right: 10px;
     padding-left: 10px;
-    background-size: cover;
     font-weight: bold;
 }
 #szerverek{
@@ -51,7 +50,6 @@ h1{
     padding-left: 10px;
     background-size: cover;
     float: right;
-    margin:auto;
     background-color: cyan;
     border: 1px solid black;
     border-radius: 10px;
@@ -63,7 +61,6 @@ h1{
     padding-left: 6px;
     background-size: cover;
     float: right;
-    margin: auto;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
@@ -76,7 +73,6 @@ h1{
     padding-left: 10px;
     background-size: cover;
     float: right;
-    margin:auto;
     background-color: rgb(66, 64, 64);
     border: 1px solid black;
     border-radius: 10px;
@@ -89,13 +85,13 @@ h1{
     color: black;
     font-size: 20px;
     background-color: rgba(77, 113, 180, 0.404);
-    margin: 0 auto;
+    margin-left: 25vh;
+    float:left;
     width: 69%;
     border: 1px solid black;
     border-radius: 7px;
-    position: relative;
-    background-position: center;
     padding: 10px;
+    position: relative;
     
 }
 #bal1{
@@ -111,6 +107,7 @@ h1{
     background-position: center;
     padding: 10px;
     text-align: center;
+    margin-right: 10px;
 }
 #bal1 li{
     padding-bottom: 20px;
@@ -127,12 +124,10 @@ footer{
 }
 
 #gifek{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-left: 42vh;
     float: left;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
+    padding-bottom: 10px;
+    width: 50%;
 }
 
 #gifek li {

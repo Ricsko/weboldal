@@ -100,14 +100,14 @@ h1{
     font-size: 20px;
     background-color: rgba(77, 113, 180, 0.404);
     margin: 0 auto;
-    width: 69%;
+    width: 80%;
     border: 1px solid black;
     border-radius: 7px;
     position: relative;
     background-position: center;
     padding: 10px;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 #bal1 li{
     padding-bottom: 20px;
@@ -137,7 +137,7 @@ footer{
 ul li{
     color:white;
     list-style: none;
-    font-size: bold ;
+    font-weight: bold ;
     font-size: 25px;
 }
 
